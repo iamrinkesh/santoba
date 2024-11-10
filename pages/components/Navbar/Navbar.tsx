@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-0 w-full bg-gradient-to-b from-transparent to-black z-50 shadow-md">
+    <nav className="sticky top-0 w-full bg-gradient-to-b from-black to-transparent z-50 shadow-md">
       <div className="p-5 max-w-screen-xl mx-auto flex items-center justify-between">
         {/* Logo (Left Side) */}
         <div className="text-white text-xl font-semibold">

@@ -20,13 +20,16 @@ const config: Config = {
       fontSize: {
         'nav-font-size': '12.69px', // Custom font size (12.69px)
         'custom-heading': '33px',
+        'lkbuk-font': '20.55px',
       },
       lineHeight: {
         'nav-line-height': '15.47px', // Custom line height (15.47px)
         'custom-line': '39.6px',
+        'lkbuk-line-height': '33px'
       },
       fontWeight: {
         'nav-font-weight': 300, // Custom font weight (300)
+        'lkbuk-font-weight': 275,
       },
       spacing: {
         'line-offset': '140px', // adjust based on desired spacing
