@@ -30,15 +30,15 @@ const index = () => {
       </section>
 
       <section className="grid grid-cols-3 gap-0 mt-12">
-        <ImageCard imageSrc="/images/card1.png" />
-        <ImageCard imageSrc="/images/card2.png" />
-        <ImageCard imageSrc="/images/card3.png" />
-        <ImageCard imageSrc="/images/card4.png" />
-        <ImageCard imageSrc="/images/card5.png" />
-        <ImageCard imageSrc="/images/card6.png" />
-        <ImageCard imageSrc="/images/card7.png" />
-        <ImageCard imageSrc="/images/card8.png" />
-        <ImageCard imageSrc="/images/card9.png" />
+        <ImageCard imageSrc="/images/card1.png" source="lookbook"/>
+        <ImageCard imageSrc="/images/card2.png" source="lookbook"/>
+        <ImageCard imageSrc="/images/card3.png" source="lookbook"/>
+        <ImageCard imageSrc="/images/card4.png" source="lookbook"/>
+        <ImageCard imageSrc="/images/card5.png" source="lookbook"/>
+        <ImageCard imageSrc="/images/card6.png" source="lookbook"/>
+        <ImageCard imageSrc="/images/card7.png" source="lookbook"/>
+        <ImageCard imageSrc="/images/card8.png" source="lookbook"/>
+        <ImageCard imageSrc="/images/card9.png" source="lookbook"/>
       </section>
     </div>
   );

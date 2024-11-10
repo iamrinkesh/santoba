@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 
-const ImageCard = ({ imageSrc, source }) => {
+const WeddingCard = ({ imageSrc, source }) => {
   const dimensions = source === 'wedding'
         ? { width: 460.32, height: 345.95 }
         : { width: 504, height: 684 };
@@ -9,8 +9,7 @@ const ImageCard = ({ imageSrc, source }) => {
   return (
     <div className="transition-opacity duration-300">
       <Image
-        className="object-cover"
-        style={{ height: `${dimensions.height}px` }}
+        className="w-full h-full object-cover"
         src={imageSrc}
         width={dimensions.width}
         height={dimensions.height}
@@ -20,4 +19,4 @@ const ImageCard = ({ imageSrc, source }) => {
   );
 };
 
-export default ImageCard;
+export default WeddingCard;
