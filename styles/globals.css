@@ -19,6 +19,9 @@ body {
   background: var(--background);
   font-family: 'Montserrat';
 }
+.w-225{
+  width: 225px
+}
 
 @layer utilities {
   .text-balance {
