@@ -11,11 +11,11 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 w-full bg-gradient-to-b from-black to-transparent z-50 shadow-md">
-      <div className="p-5 max-w-screen-xl mx-auto flex items-center justify-between">
+      <div className="p-5 max-w-screen-xl mx-auto flex items-center justify-between h-[100px]">
         {/* Logo (Left Side) */}
         <div className="text-white text-xl font-semibold">
           <Link href="/">
-            <Image src="/images/logo.png" width={129} height={184} alt="Logo" />
+            <Image src="/images/LOGO.png" width={129} height={184} alt="Logo" />
           </Link>
         </div>
 

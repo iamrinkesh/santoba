@@ -1,11 +1,9 @@
 import React from "react";
 import Image from "next/image"; // Import Next.js Image component
 import HeadingComponent from "../components/Heading/Heading";
-import PageLayout from "../components/PageLayout";
 
 const index = () => {
   return (
-    <PageLayout>
       <div className="text-white">
         <HeadingComponent heading="CORPORATES" />
         <p className="mt-4 text-m-200 max-w-3xl mx-auto text-center">
@@ -104,7 +102,6 @@ const index = () => {
           </button>
         </div>
       </div>
-    </PageLayout>
   );
 };
 

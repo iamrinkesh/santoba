@@ -4,7 +4,7 @@ import HeadingComponent from "../components/Heading/Heading";
 
 const index = () => {
   return (
-    <div className="text-white bg-dark-900 px-4 py-8">
+    <div className="text-white bg-dark-900 px-4">
       {" "}
       {/* Background and padding */}
       <HeadingComponent heading="SERVICES" />
