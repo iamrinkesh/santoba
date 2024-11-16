@@ -140,6 +140,75 @@ const ProcessFabrics = () => {
           </p>
         </div>
       </div>
+      <HeadingComponent heading="OUR FABRICS" />
+      <div className="flex justify-between items-center mt-16 w-full">
+        {/* Left Side Paragraph (2/4 Width) */}
+        <div className="w-1/2 pr-8">
+          <p className="text-left text-[24.8px] font-medium text-gray-300">
+            Discover our selection of luxury fabrics from the world’s top mills, including Zegna,
+            Drago, Guabello, Reda, Loro Piana, and more
+          </p>
+        </div>
+
+        {/* Center Section with 5 Images (1/4 Width) */}
+        <div className="w-1/4 flex flex-col items-center space-y-6 pl-12">
+          {/* Image 1 */}
+          <Image
+            src="/images/fabrics-l-1.png"
+            alt="Fabric 1"
+            width={148.27}
+            height={82.54}
+            className="w-[148.27px] h-[82.54px] absolute top-[72rem]"
+          />
+
+          {/* Image 2 */}
+          <Image
+            src="/images/fabrics-l-2.png"
+            alt="Fabric 2"
+            width={183.24}
+            height={38.57}
+            className="w-[183.24px] h-[38.57px] absolute top-[79rem]"
+          />
+
+          {/* Image 3 */}
+          <Image
+            src="/images/fabrics-l-3.png"
+            alt="Fabric 3"
+            width={228}
+            height={32.25}
+            className="w-[228px] h-[32.25px] absolute top-[86rem]"
+          />
+
+          {/* Image 4 */}
+          <Image
+            src="/images/fabrics-l-4.png"
+            alt="Fabric 4"
+            width={187.44}
+            height={187.44}
+            className="w-[187.44px] h-[187.44px] absolute top-[88rem]"
+          />
+
+          {/* Image 5 */}
+          <Image
+            src="/images/fabrics-l-5.png"
+            alt="Fabric 5"
+            width={176}
+            height={97}
+            className="w-[176px] h-[97px] absolute top-[97rem]"
+          />
+        </div>
+
+        {/* Right Side Image (1/4 Width) */}
+        <div className="w-1/4 pl-10 flex justify-end">
+          <Image
+            src="/images/fabric-large.png"
+            alt="Large Fabric"
+            width={369}
+            height={558}
+            className="w-[369px] h-[558px]"
+          />
+        </div>
+      </div>
     </div>
   );
 };

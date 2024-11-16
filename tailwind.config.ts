@@ -39,6 +39,9 @@ const config: Config = {
         'fade-line-right': 'linear-gradient(to right, var(--tw-gradient-stops))',
         'fade-line-left': 'linear-gradient(to left, var(--tw-gradient-stops))',
       },
+      rotate: {
+        135: '135deg',
+      },
     },
   },
   plugins: [],
